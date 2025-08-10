@@ -16,6 +16,13 @@
          <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     </head>
     <body>
-        <livewire:clicker />
+        <div class="flex">
+            <div class="w-2/4">
+                <livewire:users-list />
+            </div>
+            <div class="w-2/4">
+                <livewire:register-form />
+            </div>
+        </div>
     </body>
 </html>
